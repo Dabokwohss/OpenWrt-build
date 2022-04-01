@@ -57,7 +57,7 @@ jobs:
       id: combHeader
       run: |
         echo "commitHash_Lede: ${{ steps.getHash.outputs.commitHash_Lede }}"
-        # echo "commitHash_HelloWorld: ${{ steps.getHash.outputs.commitHash_HelloWorld }}"
+#         echo "commitHash_HelloWorld: ${{ steps.getHash.outputs.commitHash_HelloWorld }}"
         echo "commitHash_PassWall: ${{ steps.getHash.outputs.commitHash_PassWall }}"
         echo "::set-output name=commitHash_All::\
           ${{steps.getHash.outputs.commitHash_Lede}}\
